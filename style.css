@@ -1,0 +1,23 @@
+
+ul li{
+	margin-right: 30px;
+}
+.bg{
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	background-position: center;
+}
+body{
+	background-color: #F5F5DC;
+}
+h2{
+	border: gray solid 1px;
+	padding: 3px 6px;
+	margin-left: 3px;
+	border-radius: 3px;
+	color: mediumorchid;
+}
+bg1{
+	
+}

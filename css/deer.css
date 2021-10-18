@@ -1,0 +1,33 @@
+.bg{
+	height: 100vh;
+}
+.second{
+	background-color: black;
+	flex-grow: 1;
+	padding-top: 50px;
+	text-align: center;
+}
+p{
+	color: white;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	margin: 0 auto;
+	color: white;
+}
+button{
+	border: solid white 1px;
+	background-color: orange;
+	padding: 5px 110px;
+	border-radius: 8px;
+	margin: 4px;
+}
+.p1{
+	font-size: 12px;
+}
+
+input, select {
+	color: #504747;
+}

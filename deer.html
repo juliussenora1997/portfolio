@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DEV</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="css/tailwind.min.css">
+	<link rel="stylesheet" href="css/deer.css">
+</head>
+<body>
+	<div class="flex">
+		<img class="bg" src="deer-assets/capture.png">
+		<div class="second">
+			<h1 class="text-white text-5xl">Get Started Now</h1>
+			<p>It's free to join and gain full access to</p>
+			<p class="mb-4">thousands of opportunities.</p>
+			<form class="form" method="post" action="index.html">
+				<input class="p-2 mb-4" type="text" name="username" placeholder="Username" required="">
+				<input class="p-2 mb-4" type="email" name="email" placeholder="email" required="">
+				<input class="p-2 mb-4" type="password" name="password" placeholder="password" required>
+				<input class="p-2 mb-4" type="tel" name="telephone" placeholder="telephone">
+				<select class="p-2 mb-4" name="animals">
+					<option hidden="">Select animal</option>
+					<optgroup label="Animals">
+						<option value="tiger" selected="">Tiger</option>
+						<option value="monkey">monkey</option>
+						<option value="cat">Cat</option>
+					</optgroup>
+				</select>
+				<div>
+					<input  type="checkbox" id="agree" name="checkbox" required="">
+					<label  for="agree">I agree to the website's <span class="text-yellow-500">Privacy Policy & Terms and Conditions.</span></label>
+					<div>
+					 <button>Sign Up</button>
+					</div>
+					<p class="p1">Already have a account? <span class="text-yellow-500 text">Sign in here</span></p>
+					<div class="mt-6">
+					<a class="rounded-full border p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
